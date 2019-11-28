@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UBC Bookstore</title>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpeg">
+  <script src="js/app.js" type="text/javascript"></script>
+  <!-- <script src="http://ece.ubc.ca/~kumseok/src/cpen400a/jquery-3.3.1.min.js" type="text/javascript"></script> -->
+  <!-- <script src="http://ece.ubc.ca/~kumseok/src/cpen400a/test-5.js" type="text/javascript"></script> -->
+</head>
+
+
+
+<body>
+	<div id="header">
+		<img src="images/ubc_logo.png" id="logo" >
+		<img src="images/welcome_banner.png" id="banner">
+
+	</div>
+
+	<div id="content">
+
+		<div>
+			<button id="btn-show-cart" onclick="showCart(store.cart)">
+    			<img  src="images/shopping_cart.png">
+    			<p>Show Cart</p>
+			</button>
+		</div>
+
+		<div id="menuView"></div>
+
+		<div id="productView"></div>
+
+	</div>
+
+	<div id="modal">
+		<div id="modal-content"></div>
+	</div>
+
+	<div id="footer">
+		<div class="footer-heading">Contact Info</div>
+		<img src="images/UBC_Bookstore.jpg" class = "column" id = "footerImage">
+		<div class = "column">
+			<ul id="contactInfo">
+				<li class="infoItem">
+					<img src="images/phone.png">
+					<p>604-822-2665</p>
+				</li>
+				<li class="infoItem">
+					<img src="images/email.png">
+					<p>ubc.bookstore@ubc.ca</p>
+				</li>
+				<li class="infoItem">
+					<img src="images/address.png">
+					<p>6200 University Blvd</p>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</body>
+
+</html>
